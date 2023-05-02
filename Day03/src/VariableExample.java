@@ -7,7 +7,6 @@ public class VariableExample {
         //자료형  변수명
 		int a; //<- 변수 선언
 		a = 40;
-	
 		
 		int b = 20; //<- 변수 선언과 동시에 초기화
 		//int age; // 같은 이름의 변수는 선언 불가(컴파일에러)
