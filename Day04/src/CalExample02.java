@@ -22,5 +22,15 @@ public class CalExample02 {
 		++ y; // y = y + 1;
 		-- y; // y = y - 1;
 		System.out.println(" y = " + y);
-	}
+		
+		// 선/후 수식에 따라 나타나는 차이점
+		int z = 10;
+		//System.out.println("z = " + (++z));
+		System.out.println("z = " + (z++));
+		/*z++;
+		System.out.println("z = " + z);
+		*/
+		
+		
+		}
 }
