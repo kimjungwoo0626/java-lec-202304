@@ -19,6 +19,8 @@ public class CalExample02 {
 		int y =1;
 		y ++; // y = y + 1;
 		y --; // y = y - 1;
+		++ y; // y = y + 1;
+		-- y; // y = y - 1;
 		System.out.println(" y = " + y);
 	}
 }
