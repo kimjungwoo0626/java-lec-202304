@@ -30,11 +30,19 @@ public class CaalExample03 {
 		//boolean result4 = 2 <= x < 20; <- 에러가 난다
 		// 논리연산으로 위의 식을 대체한다
 		boolean result4 = 2 <= x && x < 20;
+		boolean result5 = x > 10 && y <= 20 && y > x; 
+		// false && true && true = false
+		boolean result6 = x > 10 || y <= 20 || y > x;
+		// false || true || true = true
+		boolean result7 = x >10 ^ y <= 20 ^ y > x;
+		// false ^true ^true = false
+		boolean result8 = result5 ^ result6 || result7 && true;
 		
-		
-		
-		
-		
+		System.out.println ("result4 = " + result4);
+		System.out.println ("result5 = " + result5);
+		System.out.println ("result6 = " + result6);
+		System.out.println ("result7 = " + result7);
+		System.out.println ("result8 = " + result8);
 		
 	}
 
