@@ -37,12 +37,16 @@ public class CaalExample03 {
 		boolean result7 = x >10 ^ y <= 20 ^ y > x;
 		// false ^true ^true = false
 		boolean result8 = result5 ^ result6 || result7 && true;
+		//false ^ true || false && true = true
+		boolean result9 = result5 ^ (result6 || result7) && true;
+		// false ^ (true ||false) && true = true
 		
 		System.out.println ("result4 = " + result4);
 		System.out.println ("result5 = " + result5);
 		System.out.println ("result6 = " + result6);
 		System.out.println ("result7 = " + result7);
 		System.out.println ("result8 = " + result8);
+		System.out.println ("result9 = " + result9);
 		
 	}
 
