@@ -9,7 +9,7 @@ public class StringExample {
 		// 대표적으로 String (문자열)
 		
 		char alpha = '김'; // 문자는 싱글 쿼테이션
-		String name ="김정우"; // 문자열은 더블 쿼테이션
+		String name ="김정우1111"; // 문자열은 더블 쿼테이션
 		int intAlpha = alpha;
 		
 		System.out.println(alpha + " = " + intAlpha);
