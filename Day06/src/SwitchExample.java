@@ -35,19 +35,21 @@ public class SwitchExample {
 		
 		}
 		
-		if( dayCode == 1) {
+		if( dayCode >= 1 && dayCode <= 7 ) {
+			System.out.println("범위는 1~7까지");
+		} else if ( dayCode == 1); {
 			System.out.println("월요일");
-		} else if (dayCode == 2 ) {
+		} else if ( dayCode == 2 ) {
 			System.out.println("화요일");
-		} else if (dayCode == 3 ) {
+		} else if ( dayCode == 3 ) {
 			System.out.println("수요일");
-		} else if (dayCode == 4 ) {
+		} else if ( dayCode == 4 ) {
 			System.out.println("목요일");
-		} else if (dayCode == 5 ) {
+		} else if ( dayCode == 5 ) {
 			System.out.println("금요일");
-		} else if (dayCode == 6 ) {
+		} else if ( dayCode == 6 ) {
 			System.out.println("토요일");
-		} else if (dayCode == 7 ) {
+		} else if ( dayCode == 7 ) {
 			System.out.println("일요일");
 		} else {
 		System.out.println("종료");
